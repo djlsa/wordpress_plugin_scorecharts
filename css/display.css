@@ -1,0 +1,34 @@
+.low_high_avg > div {
+	float: left;
+	font-weight: bold;
+	margin-left: 1em;
+	font-size: 0.9em;
+	position: relative;
+	top: -2em;
+}
+
+.low_high_avg > div > span.your {
+	color: #3399cc;
+}
+
+.low_high_avg > div > span.global {
+	color: #99cc33;
+}
+
+.scorechart {
+	margin-top: 2em;
+	margin-bottom: 3em;
+	height: 250px;
+	border: 20px solid #aeafaf;
+	background: #aeafaf;
+	width: 100%;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.flotr-labels {
+	color: #fff !important;
+	left: -10px;
+	position: relative;
+}
